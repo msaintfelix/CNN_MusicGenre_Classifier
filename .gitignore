@@ -1,5 +1,13 @@
-# gitignore for Python as maintained by Github
+# input data and models
+input/
+models/
 
+# data files
+.DS_Store
+*.csv
+*.h5
+*.pkl
+*.pth### Python template
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -139,18 +147,3 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-
-#----------------------------
-
-# My addition
-
-# input data and models
-input/
-models/
-
-# data files
-.DS_Store
-*.csv
-*.h5
-*.pkl
-*.pth
